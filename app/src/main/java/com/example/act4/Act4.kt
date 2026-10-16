@@ -221,7 +221,17 @@ fun FieldNama(
     Row(
         modifier = Modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.spacedBy(dimensionResource(id = R.dimen.jarak_field))
-    )
+    ) {
+        OutlinedTextField(
+            value = namaDepan,
+            onValueChange = onNamaDepanChange,
+            singleLine = true,
+            shape = bentukField(),
+            label = { Text(text = stringResource(id = R.string.label_nama_depan)) },
+            modifier = Modifier.weight(1f)
+        )
+       
+    }
 }
 
 
