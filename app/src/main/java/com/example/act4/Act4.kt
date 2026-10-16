@@ -120,7 +120,11 @@ fun BiodataScreen() {
                         top = dimensionResource(id = R.dimen.tinggi_gambar) -
                                 dimensionResource(id = R.dimen.tumpang_tindih_kartu)
                     )
-
+                    .fillMaxSize()
+                    .shadow(
+                        elevation = dimensionResource(id = R.dimen.elevasi_kartu),
+                        shape = bentukKartu
+                    )
 
             ) {
 
