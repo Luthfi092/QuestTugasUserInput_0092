@@ -200,7 +200,11 @@ fun FormHeader() {
             fontSize = dimensionResource(id = R.dimen.ukuran_judul).value.sp,
             fontWeight = FontWeight.Bold
         )
-
+        Text(
+            text = stringResource(id = R.string.subjudul_form),
+            color = colorResource(id = R.color.abu_teks),
+            fontSize = dimensionResource(id = R.dimen.ukuran_subjudul).value.sp
+        )
     }
 }
 
