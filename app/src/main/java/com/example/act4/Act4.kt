@@ -164,10 +164,14 @@ fun BiodataScreen() {
                             onTanggalChange = { tglLahir = it },
                             modifier = Modifier.weight(1f)
                         )
-
+                        DropdownExperience(
+                            terpilih = experience,
+                            onTerpilihChange = { experience = it },
+                            modifier = Modifier.weight(1f)
+                        )
                     }
 
-                   
+
 
 
                 }
