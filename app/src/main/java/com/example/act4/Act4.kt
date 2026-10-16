@@ -314,6 +314,21 @@ fun FieldTanggalLahir(
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun DropdownExperience(
+    terpilih: String,
+    onTerpilihChange: (String) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    var terbuka by remember { mutableStateOf(false) }
+    val daftarExperience = stringArrayResource(id = R.array.daftar_experience)
+
+    {
+       
+
+            }
+        }
 
 
 
