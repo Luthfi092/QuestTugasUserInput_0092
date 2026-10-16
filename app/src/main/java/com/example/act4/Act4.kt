@@ -148,6 +148,11 @@ fun BiodataScreen() {
                         onNamaBelakangChange = { namaBelakang = it }
                     )
 
+                    FieldEmail(
+                        email = email,
+                        onEmailChange = { email = it }
+                    )
+
 
                     ) {
 
