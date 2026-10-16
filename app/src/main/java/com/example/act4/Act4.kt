@@ -178,9 +178,28 @@ fun BiodataScreen() {
                         }
                     )
 
-
+                    TombolProceed(
+                        aktif = dataLengkap,
+                        onClick = { }
+                    )
                 }
             }
         }
     }
 }
+
+@Composable
+fun FormHeader() {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(dimensionResource(id = R.dimen.jarak_judul))
+    ) {
+
+
+    }
+}
+
+
+
+
+
