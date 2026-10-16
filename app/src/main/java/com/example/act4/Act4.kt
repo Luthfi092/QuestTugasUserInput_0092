@@ -230,7 +230,14 @@ fun FieldNama(
             label = { Text(text = stringResource(id = R.string.label_nama_depan)) },
             modifier = Modifier.weight(1f)
         )
-       
+        OutlinedTextField(
+            value = namaBelakang,
+            onValueChange = onNamaBelakangChange,
+            singleLine = true,
+            shape = bentukField(),
+            label = { Text(text = stringResource(id = R.string.label_nama_belakang)) },
+            modifier = Modifier.weight(1f)
+        )
     }
 }
 
