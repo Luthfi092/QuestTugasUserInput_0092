@@ -171,7 +171,12 @@ fun BiodataScreen() {
                         )
                     }
 
-
+                    PilihanSkill(
+                        skillTerpilih = skillTerpilih,
+                        onSkillChange = { skill, dipilih ->
+                            if (dipilih) skillTerpilih.add(skill) else skillTerpilih.remove(skill)
+                        }
+                    )
 
 
                 }
