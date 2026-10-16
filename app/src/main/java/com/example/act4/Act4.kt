@@ -77,5 +77,24 @@ fun BiodataScreen() {
         topEnd = dimensionResource(id = R.dimen.radius_kartu)
     )
 
+    Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+        Box(modifier = Modifier.fillMaxSize()) {
+            Image(
+                painter = painterResource(id = R.drawable.naruto),
+                contentDescription = stringResource(id = R.string.deskripsi_gambar_header),
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .align(Alignment.TopCenter)
+                    .fillMaxWidth()
+                    .height(dimensionResource(id = R.dimen.tinggi_gambar))
+            )
 
+
+
+
+
+
+
+        }
+    }
 }
