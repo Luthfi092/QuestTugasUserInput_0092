@@ -358,3 +358,10 @@ fun DropdownExperience(
     }
 }
 
+@Composable
+fun TombolProceed(
+    aktif: Boolean,
+    onClick: () -> Unit
+) {
+
+}
