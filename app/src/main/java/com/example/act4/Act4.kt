@@ -112,10 +112,20 @@ fun BiodataScreen() {
                 }
             }
 
+            Box(
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = innerPadding.calculateBottomPadding())
+                    .padding(
+                        top = dimensionResource(id = R.dimen.tinggi_gambar) -
+                                dimensionResource(id = R.dimen.tumpang_tindih_kartu)
+                    )
 
-                   
+
+            ) {
 
 
+            }
         }
     }
 }
