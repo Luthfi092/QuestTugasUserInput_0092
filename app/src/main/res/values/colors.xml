@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
+    <color name="purple_500">#FF4A00</color>
+    <color name="purple_700">#FF4700</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="putih_kartu">#FFFFFFFF</color>
+    <color name="ungu_utama">#FF4900</color>
+    <color name="abu_teks">#FF757575</color>
+    <color name="abu_tombol_nonaktif">#FFE0E0E0</color>
+    <color name="biru_indikator_aktif">#FF1565C0</color>
+    <color name="abu_indikator">#FF9E9E9E</color>
 </resources>
