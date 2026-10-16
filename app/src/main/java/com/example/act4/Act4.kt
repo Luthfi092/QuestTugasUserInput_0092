@@ -341,9 +341,20 @@ fun DropdownExperience(
                 .menuAnchor(ExposedDropdownMenuAnchorType.PrimaryNotEditable)
                 .fillMaxWidth()
         )
-
+        ExposedDropdownMenu(
+            expanded = terbuka,
+            onDismissRequest = { terbuka = false }
+        ) {
+            daftarExperience.forEach { pilihan ->
+                DropdownMenuItem(
+                    text = { Text(text = pilihan) },
+                    onClick = {
+                        onTerpilihChange(pilihan)
+                        terbuka = false
+                    }
+                )
             }
         }
-    
-
+    }
+}
 
