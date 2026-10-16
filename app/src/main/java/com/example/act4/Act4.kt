@@ -97,12 +97,23 @@ fun BiodataScreen() {
                     dimensionResource(id = R.dimen.jarak_indikator)
                 )
             ) {
-                
+                repeat(integerResource(id = R.integer.jumlah_indikator)) { index ->
+                    Box(
+                        modifier = Modifier
+                            .size(dimensionResource(id = R.dimen.ukuran_indikator))
+                            .clip(CircleShape)
+                            .background(
+                                colorResource(
+                                    id = if (index == 0) R.color.biru_indikator_aktif
+                                    else R.color.abu_indikator
+                                )
+                            )
+                    )
                 }
             }
 
 
-
+                   
 
 
         }
