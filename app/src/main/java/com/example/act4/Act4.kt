@@ -256,5 +256,21 @@ fun FieldEmail(
     )
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun FieldTanggalLahir(
+    tanggal: String,
+    onTanggalChange: (String) -> Unit,
+    modifier: Modifier = Modifier
+)
+        },
+
+    )
+
+
+    }
+
+
+
 
 
