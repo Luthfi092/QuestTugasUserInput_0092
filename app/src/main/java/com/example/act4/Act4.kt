@@ -329,10 +329,21 @@ fun DropdownExperience(
         onExpandedChange = { terbuka = !terbuka },
         modifier = modifier
     ) {
-
+        OutlinedTextField(
+            value = terpilih,
+            onValueChange = {},
+            readOnly = true,
+            singleLine = true,
+            shape = bentukField(),
+            label = { Text(text = stringResource(id = R.string.label_experience)) },
+            trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = terbuka) },
+            modifier = Modifier
+                .menuAnchor(ExposedDropdownMenuAnchorType.PrimaryNotEditable)
+                .fillMaxWidth()
+        )
 
             }
         }
-
+    
 
 
