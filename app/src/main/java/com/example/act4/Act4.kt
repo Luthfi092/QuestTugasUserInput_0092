@@ -125,7 +125,10 @@ fun BiodataScreen() {
                         elevation = dimensionResource(id = R.dimen.elevasi_kartu),
                         shape = bentukKartu
                     )
-
+                    .background(
+                        color = colorResource(id = R.color.putih_kartu),
+                        shape = bentukKartu
+                    )
             ) {
 
 
