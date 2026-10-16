@@ -72,7 +72,10 @@ fun BiodataScreen() {
             experience.isNotBlank() &&
             skillTerpilih.isNotEmpty()
 
-
+    val bentukKartu = RoundedCornerShape(
+        topStart = dimensionResource(id = R.dimen.radius_kartu),
+        topEnd = dimensionResource(id = R.dimen.radius_kartu)
+    )
 
 
 }
