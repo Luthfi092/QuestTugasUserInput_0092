@@ -211,7 +211,18 @@ fun FormHeader() {
 @Composable
 fun bentukField() = RoundedCornerShape(dimensionResource(id = R.dimen.radius_field))
 
-
+@Composable
+fun FieldNama(
+    namaDepan: String,
+    onNamaDepanChange: (String) -> Unit,
+    namaBelakang: String,
+    onNamaBelakangChange: (String) -> Unit
+) {
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.spacedBy(dimensionResource(id = R.dimen.jarak_field))
+    )
+}
 
 
 
