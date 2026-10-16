@@ -359,6 +359,25 @@ fun DropdownExperience(
 }
 
 @Composable
+fun PilihanSkill(
+    skillTerpilih: List<String>,
+    onSkillChange: (String, Boolean) -> Unit
+) {
+    val daftarSkill = stringArrayResource(id = R.array.daftar_skill)
+
+    Column(
+        modifier = Modifier.fillMaxWidth(),
+        verticalArrangement = Arrangement.spacedBy(dimensionResource(id = R.dimen.jarak_field))
+    ) {
+
+
+
+            }
+        }
+
+
+
+@Composable
 fun TombolProceed(
     aktif: Boolean,
     onClick: () -> Unit
